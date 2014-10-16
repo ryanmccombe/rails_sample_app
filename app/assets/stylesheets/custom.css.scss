@@ -1,7 +1,11 @@
-@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-$gray-medium-light: #eaeaea;
+$gray-lighter: #eee;
+$gray-light: #aaa;
+$gray-medium-light: #999;
+$gray: #666;
+$gray-darker: #444;
+
 @mixin box_sizing{
   -moz-box-siding: border-box;
   -webkit-box-siding: border-box;
@@ -77,6 +81,10 @@ p{
   }
 }
 
+.pull-right{
+  list-style: none;
+}
+
 /* footer */
 
 footer{
@@ -127,6 +135,10 @@ input{
 .field_with_errors{
   @extend .control-group;
   @extend .error;
+}
+
+.alert-error{
+  @extend .alert-danger
 }
 
 /* user sidebar */
