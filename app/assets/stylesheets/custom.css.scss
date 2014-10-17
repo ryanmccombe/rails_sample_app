@@ -1,11 +1,7 @@
+@import 'bootstrap-sprockets';
 @import 'bootstrap';
 
-$gray-lighter: #eee;
-$gray-light: #aaa;
-$gray-medium-light: #999;
-$gray: #666;
-$gray-darker: #444;
-
+$gray-medium-light: #eaeaea;
 @mixin box_sizing{
   -moz-box-siding: border-box;
   -webkit-box-siding: border-box;
